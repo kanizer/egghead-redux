@@ -6,8 +6,8 @@
 export default class ConsolePrinter {
     constructor(el) {
         this.listEl = document.createElement('ul');
-        this.listEl.className = 'console-printer';
-        this.el = el || document.getElementsByClassName('col-3-4')[0];
+        this.listEl.className = 'console';
+        this.el = el || document.getElementsByClassName('console-printer')[0];
         this.el.appendChild(this.listEl);
     }
 
