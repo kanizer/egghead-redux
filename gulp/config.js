@@ -51,6 +51,7 @@ module.exports = {
             src + '/public/css/main.css',
             src + '/public/js/bundle.js'
         ],
+        inline: src + '/public/index.html',
         rename: 'index.html'
     },
     jasmine: {

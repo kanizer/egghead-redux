@@ -1,1 +1,2 @@
-import './serviceinterface.spec';
+// import './serviceinterface.spec';
+import './ramda.spec';

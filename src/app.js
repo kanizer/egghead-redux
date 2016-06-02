@@ -51,7 +51,7 @@ var tests = express();
 tests.use('/', express.static(jasminePath), oneDayCache);
 tests.engine('html', ejs.renderFile);
 tests.set('views', jasminePath);
-tests.set('view engine', 'html');
+// tests.set('view engine', 'html');
 tests.get('/', function(req, res) {
   res.render('src/public/tests.html');
 });

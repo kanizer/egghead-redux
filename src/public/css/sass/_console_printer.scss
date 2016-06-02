@@ -1,0 +1,30 @@
+/* console-printer */
+
+.console-printer {
+  list-style: none;
+
+  li {
+    color: #666;
+
+    &.warn {
+      background: orange;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      height: 5px;
+      margin-bottom: 15px;
+      border-bottom: dotted 1px $grey;
+    }
+  }
+
+  .console-label {
+    font-family: 'Proxima Nova Bold';
+  }
+
+  .console-object {
+    color: blue;
+    font-family: Monaco;
+  }
+}
