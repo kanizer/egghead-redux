@@ -1,0 +1,21 @@
+/*variables ------------------------------------------*/
+
+/* numbers */
+$header-height: 65px;
+$grid-padding: 20px;
+
+/* colors */
+$grey: #dfe2e6;
+$light-grey: #f5f7fa;
+$color-bg-global: $light-grey;
+$color-font-global: $grey;
+$color-bg-nav: $light-grey;
+$color-font-noscript: $grey;
+$color-link-global: $grey;
+
+// breakpoints
+$break-max: 1350px;
+$break-column: 1030px;
+$break-tablet: 950px;
+$break-mini-tablet: 768px;
+$break-phone: 480px;

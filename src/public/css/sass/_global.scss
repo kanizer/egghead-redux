@@ -1,0 +1,48 @@
+/* global ------------------------------------------*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  @include font-primary-reg;
+  font-size: 12px;
+  background: $color-bg-global;
+  color: $color-font-global;
+}
+
+noscript,
+.chromeframe {
+  color: $color-font-noscript;
+  display: block;
+  margin: 40px 40px 0;
+  text-align: center;
+}
+
+a {
+  color: $color-link-global;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+    cursor: hand;
+  }
+}
+
+.no-js,
+.lt-ie9 {
+  .root {
+    display: none;
+  }
+}
+
+.root {
+  height: 100%;
+
+}
+
+.wrapper {
+  display: block;
+  min-height: 100%;
+}
