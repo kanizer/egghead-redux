@@ -3,6 +3,7 @@ build/
 npm-debug.log
 *.swp
 .DS_Store
+package-lock.json
 
 ### Intellij ###
 *.iml
